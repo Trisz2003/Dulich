@@ -1,0 +1,488 @@
+{
+  "tour": [
+    {
+      "id": "t1",
+      "title": "Tour Trung Quốc: Trịnh Châu – Khai Phong – Lạc Dương 7N6Đ",
+      "type": "tour nước ngoài",
+      "duration": "7 ngày 6 đêm",
+      "months": "Tháng 4, 5, 6",
+      "transport": "máy bay,ô tô",
+      "price": 19990000,
+      "image": "thanh-long-tu.jpg"
+    },
+    {
+      "id": "t2",
+      "title": "Tour Hàn Quốc: Seoul - Jeju 5N4Đ",
+      "type": "tour nước ngoài",
+      "duration": "5 ngày 4 đêm",
+      "months": "Tháng 7, 8, 9",
+      "transport": "máy bay,ô tô",
+      "price": 24990000,
+      "image": "spring-in-korea-1.jpg"
+    },
+    {
+      "id": "t3",
+      "title": "Tour Nhật Bản: Tokyo - Kyoto - Osaka 10N9Đ",
+      "type": "tour nước ngoài",
+      "duration": "10 ngày 9 đêm",
+      "months": "Tháng 10, 11, 12",
+      "transport": "máy bay,ô tô",
+      "price": 34990000,
+      "image": "scientific-group-releases-maps-of-potential-sea-level-rise.jpg"
+    },
+    {
+      "id": "t4",
+      "title": "Tour Pháp: Paris - Nice - Lyon 8N7Đ",
+      "type": "tour nước ngoài",
+      "duration": "8 ngày 7 đêm",
+      "months": "Tháng 1, 2, 3",
+      "transport": "máy bay,ô tô",
+      "price": 39990000,
+      "image": "intertour-600x400-1-1-247x165.jpg"
+    },
+    {
+      "id": "t5",
+      "title": "Tour Ý: Rome - Florence - Venice 9N8Đ",
+      "type": "tour nước ngoài",
+      "duration": "9 ngày 8 đêm",
+      "months": "Tháng 4, 5, 6",
+      "transport": "máy bay,ô tô",
+      "price": 45990000,
+      "image": "vancouver-steam-clock-247x165.jpg"
+    },
+    {
+      "id": "t6",
+      "title": "Tour Đức: Berlin - Munich - Hamburg 6N5Đ",
+      "type": "tour nước ngoài",
+      "duration": "6 ngày 5 đêm",
+      "months": "Tháng 7, 8, 9",
+      "transport": "máy bay,ô tô",
+      "price": 29990000,
+      "image": "cong-vien-walt-disney-world-magic-kingdom-1.jpg"
+    },
+    {
+      "id": "t7",
+      "title": "Tour Tây Ban Nha: Madrid - Barcelona 7N6Đ",
+      "type": "tour nước ngoài",
+      "duration": "7 ngày 6 đêm",
+      "months": "Tháng 10, 11, 1,2",
+      "transport": "máy bay,ô tô",
+      "price": 35990000,
+      "image": "faf-1.jpg"
+    },
+    {
+      "id": "t8",
+      "title": "Tour Anh: London - Manchester 5N4Đ",
+      "type": "tour nước ngoài",
+      "duration": "5 ngày 4 đêm",
+      "months": "Tháng 1, 2, 3",
+      "transport": "máy bay,ô tô",
+      "price": 25990000,
+      "image": "france-eiffel-tower-paris-247x165.jpg"
+    },
+    {
+      "id": "t9",
+      "title": "Tour Áo: Vienna - Salzburg 6N5Đ",
+      "type": "tour nước ngoài",
+      "duration": "6 ngày 5 đêm",
+      "months": "Tháng 4, 5, 6",
+      "transport": "máy bay,ô tô",
+      "price": 31990000,
+      "image": "SINGAPORE.jpg"
+    },
+    {
+      "id": "t10",
+      "title": "Tour Thụy Sĩ: Zurich - Geneva - Bern 7N6Đ",
+      "type": "tour nước ngoài",
+      "duration": "7 ngày 6 đêm",
+      "months": "Tháng 7, 8, 9",
+      "transport": "máy bay,ô tô",
+      "price": 37990000,
+      "image": "ha-lan.jpg"
+    },
+    {
+      "id": "t31",
+      "title": "Combo Hot Deal: Hà Nội - Sapa 5N4Đ",
+      "type": "combo hot deal",
+      "duration": "5 ngày 4 đêm",
+      "months": "Tháng 4, 5, 6",
+      "transport": "máy bay,ô tô",
+      "price": 9990000,
+      "image": "background"
+    },
+    {
+      "id": "t32",
+      "title": "Combo Hot Deal: Đà Nẵng - Hội An 4N3Đ",
+      "type": "combo hot deal",
+      "duration": "4 ngày 3 đêm",
+      "months": "Tháng 7, 8, 9",
+      "transport": "máy bay,ô tô",
+      "price": 11990000,
+      "image": "background"
+    },
+    {
+      "id": "t33",
+      "title": "Combo Hot Deal: Nha Trang - Đảo Bình Ba 3N2Đ",
+      "type": "combo hot deal",
+      "duration": "3 ngày 2 đêm",
+      "months": "Tháng 10, 11, 12",
+      "transport": "máy bay,ô tô",
+      "price": 8990000,
+      "image": "background"
+    },
+    {
+      "id": "t34",
+      "title": "Combo Hot Deal: Sài Gòn - Cần Thơ 4N3Đ",
+      "type": "combo hot deal",
+      "duration": "4 ngày 3 đêm",
+      "months": "Tháng 1, 2, 3",
+      "transport": "máy bay,ô tô",
+      "price": 10990000,
+      "image": "background"
+    },
+    {
+      "id": "t35",
+      "title": "Combo Hot Deal: Huế - Hội An 3N2Đ",
+      "type": "combo hot deal",
+      "duration": "3 ngày 2 đêm",
+      "months": "Tháng 4, 5, 6",
+      "transport": "máy bay,ô tô",
+      "price": 8490000,
+      "image": "background"
+    },
+    {
+      "id": "t36",
+      "title": "Combo Hot Deal: Đà Lạt - Nha Trang 5N4Đ",
+      "type": "combo hot deal",
+      "duration": "5 ngày 4 đêm",
+      "months": "Tháng 7, 8, 9",
+      "transport": "máy bay,ô tô",
+      "price": 12990000,
+      "image": "background"
+    },
+    {
+      "id": "t37",
+      "title": "Combo Hot Deal: Hà Nội - Hạ Long - Cát Bà 6N5Đ",
+      "type": "combo hot deal",
+      "duration": "6 ngày 5 đêm",
+      "months": "Tháng 10, 11, 12",
+      "transport": "máy bay,ô tô",
+      "price": 14990000,
+      "image": "background"
+    },
+    {
+      "id": "t38",
+      "title": "Combo Hot Deal: Sài Gòn - Cần Thơ - Châu Đốc 4N3Đ",
+      "type": "combo hot deal",
+      "duration": "4 ngày 3 đêm",
+      "months": "Tháng 1, 2, 3",
+      "transport": "máy bay,ô tô",
+      "price": 11490000,
+      "image": "background"
+    },
+    {
+      "id": "t39",
+      "title": "Combo Hot Deal: Huế - Đà Nẵng - Hội An 5N4Đ",
+      "type": "combo hot deal",
+      "duration": "5 ngày 4 đêm",
+      "months": "Tháng 4, 5, 6",
+      "transport": "máy bay,ô tô",
+      "price": 13990000,
+      "image": "background"
+    },
+    {
+      "id": "t40",
+      "title": "Combo Hot Deal: Nha Trang - Đà Lạt 4N3Đ",
+      "type": "combo hot deal",
+      "duration": "4 ngày 3 đêm",
+      "months": "Tháng 7, 8, 9",
+      "transport": "máy bay,ô tô",
+      "price": 10990000,
+      "image": "background"
+    },
+    {
+      "id": "t11",
+      "title": "Tour Hà Nội - Hạ Long 4N3Đ",
+      "type": "tour trong nước",
+      "duration": "4 ngày 3 đêm",
+      "months": "Tháng 4, 5, 6",
+      "transport": "máy bay,ô tô",
+      "price": 5990000,
+      "image": "hoan-kiem-247x165.jpg"
+    },
+    {
+      "id": "t12",
+      "title": "Tour Đà Nẵng - Hội An 3N2Đ",
+      "type": "tour trong nước",
+      "duration": "3 ngày 2 đêm",
+      "months": "Tháng 7, 8, 9",
+      "transport": "máy bay,ô tô",
+      "price": 4990000,
+      "image": "thumnail-dn-247x165.jpg"
+    },
+    {
+      "id": "t13",
+      "title": "Tour Nha Trang - Đảo Bình Ba 4N3Đ",
+      "type": "tour trong nước",
+      "duration": "4 ngày 3 đêm",
+      "months": "Tháng 10, 11, 12",
+      "transport": "máy bay,ô tô",
+      "price": 6990000,
+      "image": "thumnail-cd-247x165.jpg"
+    },
+    {
+      "id": "t14",
+      "title": "Tour Sài Gòn - Đồng Tháp 2N1Đ",
+      "type": "tour trong nước",
+      "duration": "2 ngày 1 đêm",
+      "months": "Tháng 1, 2, 3",
+      "transport": "máy bay,ô tô",
+      "price": 3990000,
+      "image": "thumail-hoian-247x165.jpg"
+    },
+    {
+      "id": "t15",
+      "title": "Tour Huế - Lăng Minh Mạng 3N2Đ",
+      "type": "tour trong nước",
+      "duration": "3 ngày 2 đêm",
+      "months": "Tháng 4, 5, 6",
+      "transport": "máy bay,ô tô",
+      "price": 4490000,
+      "image": "cang-ben-dam-247x165.jpg"
+    },
+    {
+      "id": "t16",
+      "title": "Tour Quảng Bình - Phong Nha - Kẻ Bàng 5N4Đ",
+      "type": "tour trong nước",
+      "duration": "5 ngày 4 đêm",
+      "months": "Tháng 7, 8, 9",
+      "transport": "máy bay,ô tô",
+      "price": 7990000,
+      "image": "thumnail-quynhown-247x165.jpg"
+    },
+    {
+      "id": "t17",
+      "title": "Tour Sapa - Lào Cai 3N2Đ",
+      "type": "tour trong nước",
+      "duration": "3 ngày 2 đêm",
+      "months": "Tháng 10, 11, 12",
+      "transport": "máy bay,ô tô",
+      "price": 5490000,
+      "image": "thumnail-quynhon-1-247x165.jpg"
+    },
+    {
+      "id": "t18",
+      "title": "Tour Cần Thơ - Trà Vinh 2N1Đ",
+      "type": "tour trong nước",
+      "duration": "2 ngày 1 đêm",
+      "months": "Tháng 1, 2, 3",
+      "transport": "máy bay,ô tô",
+      "price": 3490000,
+      "image": "thumnai-condao-247x165.jpg"
+    },
+    {
+      "id": "t19",
+      "title": "Tour Đà Lạt - Nha Trang 4N3Đ",
+      "type": "tour trong nước",
+      "duration": "4 ngày 3 đêm",
+      "months": "Tháng 4, 5, 6",
+      "transport": "máy bay,ô tô",
+      "price": 6490000,
+      "image": "halong-thumnail-247x165.jpg"
+    },
+    {
+      "id": "t20",
+      "title": "Tour Hội An - Quảng Nam 3N2Đ",
+      "type": "tour trong nước",
+      "duration": "3 ngày 2 đêm",
+      "months": "Tháng 7, 8, 9",
+      "transport": "máy bay,ô tô",
+      "price": 4990000,
+      "image": "phu-quoc-247x165.gif"
+    },
+    {
+      "id": "t21",
+      "title": "Tour Du Thuyền Hạ Long - Quảng Ninh 3N2Đ",
+      "type": "tour du thuyền",
+      "duration": "3 ngày 2 đêm",
+      "months": "Tháng 4, 5, 6",
+      "transport": "máy bay,ô tô",
+      "price": 15990000,
+      "image": "boat1.jpg"
+    },
+    {
+      "id": "t22",
+      "title": "Tour Du Thuyền Phú Quốc - Kiên Giang 4N3Đ",
+      "type": "tour du thuyền",
+      "duration": "4 ngày 3 đêm",
+      "months": "Tháng 7, 8, 9",
+      "transport": "máy bay,ô tô",
+      "price": 21990000,
+      "image": "boat2.jpg"
+    },
+    {
+      "id": "t23",
+      "title": "Tour Du Thuyền Nha Trang - Khánh Hòa 3N2Đ",
+      "type": "tour du thuyền",
+      "duration": "3 ngày 2 đêm",
+      "months": "Tháng 10, 11, 12",
+      "transport": "máy bay,ô tô",
+      "price": 18990000,
+      "image": "boat3.jpg"
+    },
+    {
+      "id": "t24",
+      "title": "Tour Du Thuyền Đà Nẵng - Hội An 4N3Đ",
+      "type": "tour du thuyền",
+      "duration": "4 ngày 3 đêm",
+      "months": "Tháng 1, 2, 3",
+      "transport": "máy bay,ô tô",
+      "price": 19990000,
+      "image": "boat4.jpg"
+    },
+    {
+      "id": "t25",
+      "title": "Tour Du Thuyền Hạ Long - Cát Bà 5N4Đ",
+      "type": "tour du thuyền",
+      "duration": "5 ngày 4 đêm",
+      "months": "Tháng 4, 5, 6",
+      "transport": "máy bay,ô tô",
+      "price": 25990000,
+      "image": "boat5.jpg"
+    },
+    {
+      "id": "t26",
+      "title": "Tour Du Thuyền Mũi Né - Phan Thiết 3N2Đ",
+      "type": "tour du thuyền",
+      "duration": "3 ngày 2 đêm",
+      "months": "Tháng 7, 8, 9",
+      "transport": "máy bay,ô tô",
+      "price": 17990000,
+      "image": "boat6.jpg"
+    },
+    {
+      "id": "t27",
+      "title": "Tour Du Thuyền Vịnh Lan Hạ - Hải Phòng 4N3Đ",
+      "type": "tour du thuyền",
+      "duration": "4 ngày 3 đêm",
+      "months": "Tháng 10, 11, 12",
+      "transport": "máy bay,ô tô",
+      "price": 22990000,
+      "image": "boat7.jpg"
+    },
+    {
+      "id": "t28",
+      "title": "Tour Du Thuyền Cần Thơ - Cồn Sơn 3N2Đ",
+      "type": "tour du thuyền",
+      "duration": "3 ngày 2 đêm",
+      "months": "Tháng 1, 2, 3",
+      "transport": "máy bay,ô tô",
+      "price": 16990000,
+      "image": "boat8.jpg"
+    },
+    {
+      "id": "t19",
+      "title": "Tour Du Thuyền Đà Lạt - Nha Trang 5N4Đ",
+      "type": "tour du thuyền",
+      "duration": "5 ngày 4 đêm",
+      "months": "Tháng 4, 5, 6",
+      "transport": "máy bay,ô tô",
+      "price": 26990000,
+      "image": "boat9.jpg"
+    },
+    {
+      "id": "t30",
+      "title": "Tour Du Thuyền Sầm Sơn - Thanh Hóa 3N2Đ",
+      "type": "tour du thuyền",
+      "duration": "3 ngày 2 đêm",
+      "months": "Tháng 7, 8, 9",
+      "transport": "máy bay,ô tô",
+      "price": 18990000,
+      "image": "boat10.jpg"
+    }
+  ],
+  "news": [
+    {
+      "id": "n1",
+      "title": "Khám phá vẻ đẹp lịch sử của Kyoto",
+      "date": "2023-08-12",
+      "summary": "Kyoto, thành phố lịch sử với hàng trăm đền chùa và di tích văn hóa, là điểm đến lý tưởng cho những ai yêu thích lịch sử và văn hóa Nhật Bản.",
+      "image": "news1.jpg"
+    },
+    {
+      "id": "n2",
+      "title": "Bí mật hòa mình vào cuộc sống đô thị ở Tokyo",
+      "date": "2023-10-29",
+      "summary": "Tokyo không chỉ là thủ đô hiện đại với các tòa nhà cao tầng và công viên giải trí, mà còn là nơi du khách có thể khám phá văn hóa đô thị sầm uất của Nhật Bản.",
+      "image": "new2.jpg"
+    },
+    {
+      "id": "n3",
+      "title": "Trải nghiệm ẩm thực độc đáo tại Osaka",
+      "date": "2023-06-05",
+      "summary": "Osaka nổi tiếng với ẩm thực độc đáo và hấp dẫn, từ món ăn đường phố cho đến những món ăn truyền thống được phục vụ trong các nhà hàng sang trọng.",
+      "image": "new3.png"
+    },
+    {
+      "id": "n4",
+      "title": "Thiên đường mua sắm ở Shibuya, Tokyo",
+      "date": "2023-11-14",
+      "summary": "Shibuya là trung tâm mua sắm và giải trí của Tokyo, với các cửa hàng thời trang, quán cà phê, và trung tâm thương mại sầm uất.",
+      "image": "new4.jpg"
+    },
+    {
+      "id": "n5",
+      "title": "Lạc vào thế giới truyện tranh ở Akihabara, Tokyo",
+      "date": "2023-09-02",
+      "summary": "Akihabara, hay còn được gọi là 'quận điện tử', là nơi tập trung của văn hóa truyện tranh và trò chơi điện tử ở Tokyo, thu hút rất nhiều fan truyện tranh và game thủ.",
+      "image": "new5.png"
+    },
+    {
+      "id": "n6",
+      "title": "Khám phá vùng quê bình dị ở Hokkaido",
+      "date": "2023-08-30",
+      "summary": "Hokkaido là điểm đến lý tưởng cho những ai muốn trải nghiệm cuộc sống đồng quê Nhật Bản, với cánh đồng hoa Lavender và những ngôi làng truyền thống.",
+      "image": "new6.png"
+    },
+    {
+      "id": "n7",
+      "title": "Hành trình khám phá văn hóa Ninja ở Mie",
+      "date": "2023-10-17",
+      "summary": "Mie là nơi có rất nhiều di tích liên quan đến văn hóa Ninja, từ các lâu đài cho đến các trải nghiệm thực tế về kỹ năng của các nhà Ninja cổ xưa.",
+      "image": "new7.jpg"
+    },
+    {
+      "id": "n8",
+      "title": "Thư giãn tại các khu nghỉ dưỡng ẩm thực ở Okinawa",
+      "date": "2023-07-21",
+      "summary": "Okinawa là một thiên đường nghỉ dưỡng với bãi biển tuyệt đẹp, suối nước nóng tự nhiên và ẩm thực độc đáo của vùng biển.",
+      "image": "new8.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "tri",
+      "password": "$2a$10$FuiZ5UzmJFQEkhCuOHLqz.AXLL2YvvMUCZBYW7XKwDCkwQrxBmGDO",
+      "role": "admin",
+      "gender": "nam",
+      "email": "admin@gmail.com"
+    },
+    {
+      "id": "e80f",
+      "username": "quang tri",
+      "email": "sieutromsskid@gmail.com",
+      "password": "$2a$10$B1sZkOnC.K2ZQDMeinpwQuLOkYCldrBcdhE8TdEiCHWulyV0QieYW",
+      "gender": "Nam",
+      "role": "user"
+    },
+    {
+      "id": "7b48",
+      "username": "trisz",
+      "email": "nquangtri203@gmail.com",
+      "password": "$2a$10$yJ7XvEEYCS6vIWutCDhuRuuHbdSs.vcMKzJM7pqnaf8Hho7QT/KuG",
+      "gender": "Nam",
+      "role": "user"
+    }
+  ]
+}

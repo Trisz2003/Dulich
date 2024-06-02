@@ -1,0 +1,84 @@
+
+    <!-- cart  -->
+    <section class="bg-light">
+      <div class="container mt-4 px-0 ">
+        <div class="row">
+          <h5 class="text-warning">Sản phẩm trong giỏ hàng đã được thêm vào giỏ hàng.</h5>
+        </div>
+        <div class="row m-0">
+          <table class="table align-middle ">
+            <thead>
+
+              <tr>
+                <th>TOUR</th>
+                <th>Ảnh</th>
+                <th>GIÁ</th>
+                <th>SỐ LƯỢNG</th>
+                <th>Xóa</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr *ngFor="let p of cart">
+                <td data-label="TOUR"> {{p.title}} </td>
+                <td data-label="Ảnh">
+                  <img src="/assets/img/{{p.image}}" class="img-fluid" style="width: 200px;" alt="">
+                </td>
+                <td data-label="Giá">{{p.price | number}}₫</td>
+                <td data-label="SỐ LƯỢNG"><input type="number" [(ngModel)]="p.quantity"   min="1"
+                  class="form-control form-control-sm w-75 m-auto" /></td>
+                <td data-label="Xóa"><i class="bi bi-trash-fill text-warning" (click)="deleteCart(p.id)"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="row my-2 m-0">
+          <div class="col-md-7">
+            <h6>Bạn có mã ưu đãi? Ấn vào đây để nhập mã</h6>
+            <hr>
+            <h4>THÔNG TIN LIÊN HỆ</h4>
+            <form action="">
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="">Tên*</label>
+                  <input type="text" class="form-control " placeholder="Name*">
+                </div>
+                <div class="col-md-6">  
+              <label for="">Địa chỉ*</label>
+              <input type="text" class="form-control " placeholder="Address*">
+                </div>
+              </div>
+              <div class="row my-2 m-0">  
+                <label for="">Số điện thoại*</label>
+                <input type="text" class="form-control" placeholder="Phone*">
+              </div>
+              <div class="row my-2 m-0">  
+                <label for="">Địa chỉ email*</label>
+                <input type="text" class="form-control" placeholder="Email*">
+              </div>
+              <div class="row my-2 m-0">  
+                <label for="">Ghi chú thêm*</label>
+                <textarea name="" class="form-control" placeholder="Ghi chú về đơn hàng" id="" cols="30" rows="5"></textarea>
+              </div>
+             
+            </form>
+          </div>
+          <div class="col-md-5 border rounded-3 border-danger my-4 ">
+            <h4>THÔNG TIN TOUR ĐÃ ĐẶT</h4>
+            <a href="#" class="list-group-item d-flex justify-content-between align-items-center ">TOUR <span>TẠM TÍNH</span></a>
+            <div class="list-group fw-bold" *ngFor="let p of cart">
+              <a href="#" class="list-group-item d-flex justify-content-between align-items-center">{{p.title}} x {{p.quantity}}<span class=" text-warning m-2">{{p.price| number}}₫</span></a>
+            </div>
+            <a href="#" class="list-group-item fw-bold d-flex justify-content-between align-items-center">Tổng<span class=" text-warning">{{sumMoney() | number}}₫</span></a>
+            <h6 class="my-2">Đặt giữ chỗ trước, thanh toán sau</h6>
+            <button class="btn btn-primary my-3">ĐẶT TOUR NGAY</button>
+            <p class="fw-bold">Thông tin cá nhân của bạn sẽ được sử dụng để xử lý đơn hàng, tăng trải nghiệm sử dụng website, 
+              và cho các mục đích cụ thể khác đã được mô tả trong chính sách riêng tư của chúng tôi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end cart  -->
+
+  

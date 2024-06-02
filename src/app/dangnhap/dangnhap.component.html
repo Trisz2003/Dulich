@@ -1,0 +1,53 @@
+<ng-toast></ng-toast>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+      <div class="row border rounded-5 p-3 bg-white shadow box-area">
+        <div class="col-md-6 rounded-4 left-box-login d-flex justify-content-center align-items-center flex-column" >
+          <div class="featured-image mb-3">
+            <!-- <img src="./img/login.jpg" class="img-fluid" style="width: 500px;" alt=""> -->
+          </div>
+        </div>
+        <div class="col-md-6 right-box">
+          <form (ngSubmit)="onSubmit()">
+
+            <div class="row align-items-center">
+              <div class="header-text mb-4">
+                <h2>Hello, again</h2>
+                <p>We are happy to have you back</p>
+              </div>
+              <div class=" mb-3">              
+                <input type="email" class="form-control form-control-lg bg-light fs-6" placeholder="Email address" name="email" [(ngModel)]="email">
+                <div *ngIf=" email=='' ">
+                  <small class="text-danger">Email ko được bỏ trống</small>
+              </div>
+              </div>
+              <div class=" mb-1">
+                <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="password" name="password" [(ngModel)]="password">
+                <div *ngIf=" password=='' ">
+                  <small class="text-danger">Mật khẩu ko được bỏ trống</small>
+              </div>
+              </div>
+              <div class=" mb-5 d-flex justify-content-between">
+                <div class="form-check">
+                  <input type="checkbox" name="" class="form-check-input" id="formcheck">
+                  <label for="formcheck" class="form-check-label text-secondary"><small>Remember Me</small></label>
+                </div>
+                <div class="forgot">
+                  <small><a [routerLink]="['/quenmatkhau']">Forgot Password?</a></small>
+                </div>
+              </div>
+              <div class=" mb-3">
+                <button class="btn btn-primary btn-lg w-100 fs-6">Login</button>
+              </div>
+              <div class="input-group mb-3">
+                <button class="btn btn-light btn-lg w-100 fs-6"><img src="/assets/img/Remove-bg.ai_1710420443208.png" style="width: 20px;" class="me-2" alt=""><small>Sign In with Google</small></button>
+              </div>
+              <div class="row">
+                <small>Dont't have account? <a [routerLink]="['/dangky']">Sign Up</a></small>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+

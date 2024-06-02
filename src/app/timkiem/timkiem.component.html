@@ -1,0 +1,89 @@
+    <!-- slide show  -->
+ 
+ 
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://intertour.vn/wp-content/uploads/2024/02/2024-nhatban-31012024.jpg.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://intertour.vn/wp-content/uploads/2024/02/2024-my-31012024.jpg.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://intertour.vn/wp-content/uploads/2024/02/2024-tq-2-31012024.jpg.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <!-- end slide show  -->
+
+
+
+   <!-- form search -->
+   <div class="container mb-3  bg-info rounded-2 ">
+    <div class="row mx-auto  py-3 px-0">
+        <div class="col-md-3 m-0 p-0">
+            <label for="searchInput" class="form-label">Tìm kiếm</label>
+            <input type="text" class="form-control" id="searchInput" #searchInput placeholder="Nhập tour để tìm kiếm">
+        </div>
+        <div class="col-md-2 m-0 ">
+            <label for="destinationSelect" class="form-label">Nơi đến</label>
+            <select class="form-select" id="destinationSelect">
+                <option selected>Tất cả</option>
+               
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label for="departureSelect" class="form-label">Nơi khởi hành</label>
+            <select class="form-select" id="departureSelect">
+                <option selected>Tất cả</option>
+               
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label for="timeSelect" class="form-label">Thời gian khởi hành</label>
+            <select class="form-select" id="timeSelect">
+                <option selected>Tất cả</option>
+                <!-- Add other time options here -->
+            </select>
+        </div>
+        <div class="col-md-2 mt-4 p-0">
+            <button type="submit" class="btn btn-primary" (click)="onSearch(searchInput.value)">TÌM TOUR</button>
+        </div>
+    </div>
+</div>
+<!-- end form search -->
+
+
+
+<div class="container mt-3">
+    <h4> {{productSearch.length}} kết quả tìm kiếm với từ khóa "{{keyword}}"</h4>
+    
+    <div class=" row    ">
+        <div class="col-lg-3 col-md-6 col-sm-6 my-2 " *ngFor="let p of productSearch">
+          <div class="card  " >
+      <img src="assets/img/{{p.image}}" class="card-img-top img-fluid " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{p.title}}</h5>
+              <p class="card-text">Phương tiện: {{p.transport}}<br>
+              <i class="bi bi-alarm-fill"></i> {{p.duration}} <br>
+                <i class="bi bi-calendar-date"></i> {{p.months}} <br>
+             <strong> Giá 1 khách chỉ từ: </strong> <span class="text-danger fw-bold">{{p.price | number}}đ</span>
+              </p>
+              <input type="hidden" value="1" min="1" #quantity>
+              <button  class="btn btn-primary" [routerLink]="['/chitietsanpham',p.id]">XEM CHI TIẾT</button>
+            </div>
+          </div>
+        </div>
+       </div>
+
+</div>
+

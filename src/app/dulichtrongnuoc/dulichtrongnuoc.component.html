@@ -1,0 +1,161 @@
+      <!-- product  -->
+      <div class="container my-4 " >
+        <div class="row my-3 ">
+          <span class="w-50">
+            <h4>Du Lịch Trong Nước</h4>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a [routerLink]="['/trangchu']" class="text-decoration-none text-secondary">Trang chủ</a></li>
+                <li class="breadcrumb-item fw-bold" aria-current="page">Du Lịch Trong Nước</li>
+              </ol>
+            </nav>
+          </span>
+          <span class="d-flex  w-25 justify-content-end">    
+            <select class="form-select w-50 h-50 "  [(ngModel)]="sort"  (change)="onSort()" aria-label="Default select example">
+              <option selected>Sắp xếp</option>
+              <option value="asc">Giá tăng dần</option>
+              <option value="desc">Giá giảm dần</option>
+            </select> 
+          </span>
+         
+        </div>
+        <div class="row ">
+          <div class="col-md-9 ">
+            <div class="row bg-light m-0">
+              <h3>Chùm Tour Du Lịch Trong Nước</h3>
+            </div>
+
+            <div class="row mt-2 ">
+              <div class=" row  mx-auto px-0 ">
+                <div class="col-lg-4 col-md-6 col-sm-6 my-2 " *ngFor="let c of tourCountry | slice :0:9">
+                  <div class="card  " >
+                   <a href="detail.html"><img src="/assets/img/{{c.image}}" class="card-img-top img-fluid " alt="..."></a> 
+                    <div class="card-body">
+                      <h5 class="card-title">{{c.title}}</h5>
+                      <p class="card-text">Phương tiện: <i class="bi bi-airplane-engines-fill"></i> <i class="bi bi-car-front-fill"></i><br>
+                      <i class="bi bi-alarm-fill"></i> {{c.duration}} <br>
+                        <i class="bi bi-calendar-date"></i> {{c.months}} <br>
+                     <strong> Giá 1 khách chỉ từ: </strong> <span class="text-danger fw-bold">{{c.price | number}}đ</span>
+                      </p>
+                      <a href="cart.html" class="btn btn-primary">ĐẶT TOUR</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row">
+            <div class="accordion" id="categoryAccordion">
+                <div class="accordion-item ">
+                    <h2 class="accordion-header" id="categoryHeading">
+                        <button class="accordion-button bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#categoryCollapse" aria-expanded="true" aria-controls="categoryCollapse">
+                           <p class=""> NƠI KHỞI HÀNH</p> 
+                          </button>
+                    </h2>
+                    <div id="categoryCollapse" class="accordion-collapse collapse " aria-labelledby="categoryHeading" data-bs-parent="#categoryAccordion">
+                      <div class="list-group">
+                        <a href="#" class="list-group-item">
+                          <div class="form-check my-2 ">
+                            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label mx-1" for="flexCheckDefault">
+                              TP.HCM
+                            </label>
+                          </div>                         
+                        </a>
+                        <a href="#" class="list-group-item">
+                          <div class="form-check my-2 ">
+                            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label mx-1" for="flexCheckDefault">
+                              ĐÀ NẴNG
+                            </label>
+                          </div>                         
+                        </a>
+                        <a href="#" class="list-group-item">
+                          <div class="form-check my-2 ">
+                            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label mx-1" for="flexCheckDefault">
+                              HÀ NỘI
+                            </label>
+                          </div>                         
+                        </a>
+                        <a href="#" class="list-group-item">
+                          <div class="form-check my-2 ">
+                            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label mx-1" for="flexCheckDefault">
+                              HẢI PHÒNG
+                            </label>
+                          </div>                         
+                        </a>
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          <div class="row">
+            <div class="accordion" id="categoryAccordion">
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="categoryHeading">
+                      <button class="accordion-button bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#nhacungcap" aria-expanded="true" aria-controls="categoryCollapse">
+                        NƠI ĐẾN
+                      </button>
+                  </h2>
+                  <div id="nhacungcap" class="accordion-collapse collapse " aria-labelledby="categoryHeading" data-bs-parent="#categoryAccordion">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item">
+                        <div class="form-check my-2 ">
+                          <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label " for="flexCheckDefault">
+                            BÀ NÀ
+                          </label>
+                        </div>
+                      </a>
+                      <a href="#" class="list-group-item">  <div class="form-check my-2 ">
+                        <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label " for="flexCheckDefault">
+                          BẠC LIÊU
+                        </label>
+                      </div></a>
+                      <a href="#" class="list-group-item"> <div class="form-check my-2 ">
+                        <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label " for="flexCheckDefault">
+                          CÔN ĐẢO
+                        </label>
+                      </div></a>
+                      <a href="#" class="list-group-item">
+                        <div class="form-check my-2 ">
+                          <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label " for="flexCheckDefault">
+                            ĐÀ LẠT
+                          </label>
+                        </div>
+                      </a>
+                      <a href="#" class="list-group-item">  
+                        <div class="form-check my-2 ">
+                          <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label " for="flexCheckDefault">
+                            CÀ MAU
+                          </label>
+                        </div>
+                      </a>
+                      <a href="#" class="list-group-item">
+                        <div class="form-check my-2 ">
+                          <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label " for="flexCheckDefault">
+                            HẠ LONG
+                          </label>
+                        </div>
+                      </a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+     <!-- end product  -->
+

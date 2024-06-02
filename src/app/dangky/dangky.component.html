@@ -1,0 +1,82 @@
+
+  <div class="bg-body-secondary ">
+
+    <div class="container d-flex justify-content-center align-items-center min-vh-100 ">
+        <div class="row border rounded-5 p-3 bg-white shadow box-area my-4">
+          <div class="col-md-6 rounded-4 left-box-register d-flex justify-content-center align-items-center flex-column" >
+            <div class="featured-image mb-3">
+              <!-- <img src="./img/login.jpg" class="img-fluid" style="width: 500px;" alt=""> -->
+            </div>
+          </div>
+          <div class="col-md-6 right-box ">
+            <form  (ngSubmit)="onSubmit() " class="">
+              <div class="row align-items-center">
+                <div class="header-text mb-4">
+                  <h2>Hello </h2>
+                </div>
+                <div class=" mb-3">
+                  <input type="text" class="form-control  form-control-lg bg-light fs-6" name="username" [(ngModel)]="username"  placeholder="Username">
+                   <div *ngIf="username==''">
+                    <small class="text-danger">Tên đăng nhập không được để trống</small>
+                   </div>
+                </div>
+                <div class=" mb-3">
+                  <input type="email" class="form-control form-control-lg bg-light fs-6" name="email" [(ngModel)]="email"  placeholder="Email address">
+                  <div *ngIf="email==''">
+                    <small class="text-danger">Email không được để trống</small>
+                </div>
+                <div *ngIf="email!==''&& ! isEmailValid(email)">
+                    <small class="text-danger">Email không hợp lệ</small>
+                </div>
+                </div>
+                <div class=" mb-3">
+                  <select class="form-select w-50 h-50 " [(ngModel)]="gender" name="gender" aria-label="Default select example">
+                    <option selected>Giới tính</option>
+                    <option value="Nam">Nam</option>
+                    <option value="Nữ">Nữ</option>
+                  </select> 
+                  <div *ngIf="gender=='Giới tính'">
+                    <small class="text-danger">Bạn phải chọn giới tính </small>
+                </div>
+                </div>
+                <div class=" mb-3">
+                  <input type="password" class="form-control form-control-lg bg-light fs-6" name="password" [(ngModel)]="password"  placeholder="Password">
+                  <div *ngIf="password==''">
+                    <small class="text-danger">Mật khẩu không được để trống</small>
+                </div>
+                <div *ngIf="password!==''&& ! isPasswordValid(password)">
+                    <small class="text-danger">Mật khẩu phải có 8 kí tự, chữ hoa,chữ thường,ký tự đặc biệt và số</small>
+                </div>
+                </div>
+                <div class=" mb-1">
+                  <input type="password" class="form-control form-control-lg bg-light fs-6" name="repassword" [(ngModel)]="repassword"  placeholder="Confirm password">
+                  <div *ngIf="repassword==''">
+                    <small class="text-danger">Nhập lại mật khẩu không được để trống</small>
+                </div>
+                <div *ngIf="repassword!=='' && repassword!==password">
+                    <small class="text-danger">Mật khẩu nhập lại không chính xác</small>
+                </div>
+                </div>
+                <div class="mb-3">
+                  <input type="checkbox" name="check" [(ngModel)]="check"  class="m-2">
+                  <span>Tôi đồng ý với điều khoản của dịch vụ</span>
+                  <div *ngIf="check==false">
+                    <small class="text-danger">Bạn phải đồng ý với điều khoản của dịch vụ</small>
+                </div>
+                </div>
+               
+                <div class=" my-3">
+                  <button class="btn btn-primary btn-lg w-100 fs-6" type="submit">Register</button>
+                </div>
+                <div class="input-group mb-3">
+                  <button class="btn btn-light btn-lg w-100 fs-6"><img src="/assets/img/Remove-bg.ai_1710420443208.png" style="width: 20px;" class="me-2" alt=""><small>Sign up with Google</small></button>
+                </div>
+                <div class="row">
+                  <small>Already have an account? <a [routerLink]="['/dangnhap']">Login</a></small>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  </div>
