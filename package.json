@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "concurrently \"npm run serve\" \"npm run json-server\"",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "serve": "ng serve",
+    "json-server": "json-server --watch db.json --config json-server.json"
   },
   "private": true,
   "dependencies": {
@@ -35,7 +37,9 @@
     "@types/bcryptjs": "^2.4.6",
     "@types/jasmine": "~5.1.0",
     "@types/nodemailer": "^6.4.14",
+    "concurrently": "^8.2.2",
     "jasmine-core": "~5.1.0",
+    "json-server": "^1.0.0-beta.1",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
@@ -43,4 +47,5 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.4.2"
   }
+  
 }
